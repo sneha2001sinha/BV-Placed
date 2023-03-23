@@ -14,6 +14,9 @@ body{
     justify-content: center; 
 }
 
+.typeoflogin:hover{
+cursor:pointer;
+}
 .first{
     background-color: white;
     float: left;
