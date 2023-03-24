@@ -72,9 +72,11 @@
   var typeoflogin=0;
   document.querySelector("#adminlogin").addEventListener("click",function(){
   typeoflogin=1;
+  document.querySelector("#adminlogin").setAttribute("class","focusclass")
   })
   document.querySelector("#stulogin").addEventListener("click",function(){
   typeoflogin=2;
+  document.querySelector("#stulogin").setAttribute("class","focusclass")
   })
   document.querySelector("#submit").addEventListener("click",function(e){
     e.preventDefault();
